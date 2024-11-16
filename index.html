@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--icones bonitinhos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--css-->
+        <link rel="stylesheet" href="./src/css/stylee.css">
+        <link rel="stylesheet" href="./src/css/header.css">
+        <link rel="stylesheet" href="./src/css/catalogo.css">
+        <link rel="stylesheet" href="./src/css/home.css">
+        <link rel="stylesheet" href="./src/css/aboutUs.css">
+        <link rel="stylesheet" href="./src/css/footer.css">
+        
+
+        <!--jquery cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Garden Shop.ie</title>
+    </head>
+    <body>
+        <!--barra do navegador-->
+        <header>
+            <div class = "above">
+            <nav id = "navbar">
+                <i class="fa-solid fa-fan" id="nav-logo"> GARDEN  SHOP</i>
+                <ul id = "nav-list">
+                    <li class = "nav-item ">
+                    <a href="./index.html"> Home </a> 
+                    </li>   
+                    <li class = "nav-item">
+                    <a href="./products.html"> Products </a> 
+                    </li>
+                    <li class = "nav-item"> 
+                    <a href="./contact.html"> Contact Us </a> 
+                    </li>
+                </ul>
+                
+
+                <button id = "mobile-btn"> <!--botao do menu lateral para celular-->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav> <!--fim da barra vanegadora-->
+          
+            <div id="mobile-menu"> <!--menu para celular-->
+                <ul id = "mobile-nav-list" >
+                    <li class = "nav-item">
+                    <a href="./index.html"> Home </a> 
+                    </li>   
+
+                    <li class = "nav-item">
+                    <a href="./products.html"> Products </a> 
+                    </li>
+
+                    <li class = "nav-item"> 
+                    <a href="./contact.html"> Contack Us </a> 
+                    </li>
+                </ul>
+                    
+            </div> <!--fim do menu para celular -->
+            </div>
+        </header>
+        
+       <main id = "content" >
+            
+            <section id="home">
+                <div class = "shape"></div>
+                <div id="text">
+                    <h1 class="title" style="font-size: 50px;">
+                        A garden is a place where you can <span>breathe,</span> <span>relax</span> and <span>reconnnect</span>
+                    </h1>
+                    <p class=" description" >
+                        And just as flowers brighten a room, send a little sunshine with every bouquet, sharing warmth and happiness with others
+                    </p>
+                    <div id="ct-buttons">
+                        
+                            <a href="./products.html" class="btn-default ">Send Flowers</a>
+                        
+                        <a href="tel+00000000" id ="btn-phone">
+                            <button class=" btn-default">
+                                <i class="fa-solid fa-phone"></i> </i>
+                                (083)0000000
+                            </button>
+                            </a>
+                    </div>
+
+                    <div class="social-midia-btn">
+                        <a href="">
+                            <i class = "fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="">
+                            <i class = "fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class = "fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div id="banne">
+                    <img src="./src/imagem/homepag.png" width="550px" >
+                    
+                </div>
+            </section>
+            <section id = "catalogo">
+                <h2 class = "section-title">Online Flower Delivery </h2>
+                <h3 class="section-subtitle"> Best Sellers </h3>
+                <div id="products">
+                    <div class = "flowers">
+                        <div class=" flowers-heart">
+                            <i class="fa-solid fa-heart "></i>
+                        </div>
+
+                        <img src="./src/imagem/cat1.jpg" class="flowers-img" width="250px" >
+                        <h3 class = "flowers-title"></h3>
+                        <span class = "flowers-description"></span> 
+                        <div class=" flowers-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                        </div>
+                        <div class="flowers-price">
+                            <h4>20,00</h4>
+                            <button class = "btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                        </div>
+                    </div>
+                    <div class = "flowers">
+                        <div class=" flowers-heart">
+                            <i class="fa-solid fa-heart "></i>
+                        </div>
+
+                        <img src="./src/imagem/cat2.jpg" class="flowers-img" width="250px"  >
+                        <h3 class = "flowers-title"></h3>
+                        <span class = "flowers-description"></span> 
+                        <div class=" flowers-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                        </div>
+                        <div class="flowers-price">
+                            <h4>20,00</h4>
+                            <button class = "btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                        </div>
+
+                        
+                    </div>
+                    <div class = "flowers">
+                        <div class=" flowers-heart">
+                            <i class="fa-solid fa-heart "></i>
+                        </div>
+
+                        <img src="./src/imagem/cat3.jpg" class="flowers-img" width="250px"  >
+                        <h3 class = "flowers-title"></h3>
+                        <span class = "flowers-description"></span> 
+                        <div class=" flowers-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                        </div>
+                        <div class="flowers-price">
+                            <h4>20,00</h4>
+                            <button class = "btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                        </div>
+
+                        
+                    </div>
+                    <div class = "flowers">
+                        <div class="flowers-heart">
+                            <i class="fa-solid fa-heart "></i>
+                        </div>
+                        <img src="./src/imagem/cat4.jpg" class="flowers-img" width="250px" >
+                        <h3 class = "flowers-title"></h3>
+                        <span class = "flowers-description"> algo aqui</span> 
+                        <div class=" flowers-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                        </div>
+                        <div class="flowers-price">
+                            <h4>20,00</h4>
+                            <button class = "btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> 
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section id= "about-us"> 
+                <div id ="img-ower">
+                    <img src="./src/imagem/ower.PNG" width="500px">
+                </div>
+
+                <div class = "text-about-us">
+                    <h3>
+                        Garden Shop.ie has been a family-owned business for over 20 years, founded by the Pereira family who shared a deep love for gardening. What began as a small garden in their backyard quickly blossomed into a thriving shop, offering fresh flowers, plants, and unique garden accessories. Throughout the years, their passion for quality and personalized service has earned them a loyal following in the community. Today, Garden Shop.ie continues to provide the same care and dedication, helping customers bring a little more beauty into their lives, one plant at a time. For the Pereira family, it’s always been about more than just selling plants—it’s about creating lasting connections and sharing their love for nature with others.
+                    </h3>
+                    <botom>
+                    <a href="./contact.html" class="btn-default">Contact Us</a>
+                    </botom>
+                </div>
+            </section>
+       </main>
+
+       <footer>
+        <img src="./src/imagem/wave.svg" >
+        <div id="footer-itens">
+            <span id="copyright">
+                &copy 2024 website for academic purposes only, Vanessa Tamboril
+            </span>
+            <div class="social-midia-btn">
+                <a href="">
+                    <i class = "fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class = "fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class = "fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+       </footer>
+       
+
+
+       <!--fim do meio da pagina -->
+        
+        
+        
+        <!--javascript-->
+        <script src="src/js/script.js"></script>
+    </body>
+ </html>

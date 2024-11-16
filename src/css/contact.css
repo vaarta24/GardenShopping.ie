@@ -1,0 +1,90 @@
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fef5fa;
+    padding: 1rem;
+}
+
+form{
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input, 
+textarea, 
+button{
+    display:block;
+}
+input,
+textarea,
+button{
+    width: auto;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+input,
+textarea{
+    margin-bottom: 1rem;
+    color: black;
+    background: antiquewhite;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+    outline: none;
+    border-color: black;
+}
+label{
+    margin-bottom: 0.5rem;
+}
+textarea{
+    min-width: 12.5rem;
+    resize: vertical;
+}
+button{
+    border: none;
+    border-radius: 99px;
+    color: black;
+    background-color: blueviolet; /*cor do botao */
+    cursor: pointer;
+}
+
+button:hover,
+button:focus{
+    outline: none;
+    background: blue; /*quando click que cor fica*/
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: red;
+}
+.success {
+    color: green;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#mobile-menu {
+    display: none;
+}
+#mobile-menu.active {
+    display: block;
+}
+
+
+
+
+

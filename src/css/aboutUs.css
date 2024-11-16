@@ -1,0 +1,34 @@
+#about-us{
+    display: flex;
+    min-height: calc(100vh-92px);
+    position: relative;
+}
+#text-about-us{
+    width: 60%;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    margin-top: 5% ;
+}
+@media screen and (max-width: 1170px){
+    #about-us{
+        min-height: 100% ;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    #text{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .img-ower{
+        position: center;
+    }
+}
+@media screen and (max-width: 450px){
+    #btn-phone button{
+        display: none;
+
+    }
+}

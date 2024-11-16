@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/contact.css">
+    <link rel="stylesheet" href="./src/css/stylee.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/footer.css">  
+
+    <title>Garden Shop.ie </title>
+</head>
+<body>
+        <!--barra do navegador-->
+        <header>
+            <div class = "above">
+            <nav id = "navbar">
+                <i class="fa-solid fa-fan" id="nav-logo"> GARDEN  SHOP</i>
+                <ul id = "nav-list">
+                    <li class = "nav-item ">
+                    <a href="./index.html"> Home </a> 
+                    </li>   
+                    <li class = "nav-item">
+                    <a href="./products.html"> Products </a> 
+                    </li>
+                    <li class = "nav-item"> 
+                    <a href="./contact.html"> Contact Us </a> 
+                    </li>
+                </ul>
+                
+
+                <button id = "mobile-btn"> <!--botao do menu lateral para celular-->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav> <!--fim da barra vanegadora-->
+          
+            <div id="mobile-menu"> <!--menu para celular-->
+                <ul id = "mobile-nav-list" >
+                    <li class = "nav-item">
+                    <a href="./index.html"> Home </a> 
+                    </li>   
+
+                    <li class = "nav-item">
+                    <a href="./products.html"> Products </a> 
+                    </li>
+
+                    <li class = "nav-item"> 
+                    <a href="./contact.html"> Contact Us </a> 
+                    </li>
+                </ul>
+        </header>
+
+        <main>
+    
+            <section class ="contact-contend">
+                <form action="#" method ='post' data-form >
+                    <label>Full name</label>
+                    <input type ="text" name="name" placeholder="Enter your name"required>
+                    <label> Email </label>
+                    <input type ="email" name="email" placeholder="Enter your Email"required>
+                    <label> Phone </label>
+                    <input type ="tel" name="phone" placeholder="Enter your phone number"required>
+                    <label> Message </label>
+                    <textarea name="message" rows="10" cols="50"  placeholder="Enter your Message" required></textarea>
+                    <button type ="submit">Send </button>
+                </form>
+            </section>
+    
+    
+        </main>
+         <footer>
+            <img src="./src/imagem/wave.svg">
+            <div id="footer-itens">
+                <span id="copyright">
+                    &copy 2024 website for academic purposes only, Vanessa Tamboril
+                </span>
+                <div class="social-midia-btn">
+                    <a href="">
+                        <i class = "fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class = "fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class = "fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+
+    <script src="./src/js/script.js"></script>   
+</body>
+</html>

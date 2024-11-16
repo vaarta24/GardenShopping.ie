@@ -1,0 +1,18 @@
+footer{
+    background-color: #f1bfb9 ;
+}
+#footer-itens{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 8% 24px 8%;
+}
+#copyright{
+
+}
+@media screen and (max-width: 600px){
+    #footer-itens{
+        gap: 20px;
+        flex-direction: column;
+    }
+}

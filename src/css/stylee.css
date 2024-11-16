@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*cores do site */
+header{
+    background-color: #eec9c0;
+}
+#text{
+    background-color: #eec9c0;
+}
+#home{
+    background-color: #eec9c0;
+}
+#catalogo{
+    background-color:  #fef5fa;
+}
+#about-us{
+    background-color: #fef5fa;
+
+}
+section{
+        width: 100%;
+        padding: 28px 8%;
+    
+    }
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecb4a6; 
+    border-radius: 12px ;
+    padding: 10px 14px;
+    color :forestgreen;
+    font-weight: 600;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-default:hover{
+    text-decoration: none; 
+    background-color: rgb(69, 180, 69) ;
+}
+/*botoes da midia*/
+.social-midia-btn{
+    display: flex;
+    gap: 18px;
+}
+.social-midia-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    font-size: 4,25rem;
+    background-color: #ecb4a6;
+    font-size:  1,25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color :forestgreen;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.section-title{
+    color:#333333;
+    font-size: 1.563rem;
+}
+.section-subtitle{
+    color: #ffd700;
+    font-size: 2.1875rem;
+}
+
+
+
